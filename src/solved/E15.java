@@ -28,7 +28,7 @@ class E15 {
     }
 
     @ParameterizedTest
-    @CsvSource({"1,2", "2,6", "3,20", "4,70", "5,252", "6,924","7,3432","14,40116600"})
+    @CsvSource({"1,2", "2,6", "3,20", "4,70", "5,252", "6,924","7,3432","14,40116600","20,137846528820"})
     void test(int size, int numberOfPath) {
         assertEquals(numberOfPath, numberOfPossiblePaths(size));
     }
